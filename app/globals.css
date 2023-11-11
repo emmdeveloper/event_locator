@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.ff_Poppins {
+  @apply font-[Poppins];
+}
+
+.html::-webkit-scrollbar {
+  background-color: #f6f1ed;
+}
+.navbar_text {
+  @apply sm:hidden lg:block;
+}
+
+.glassmorphism {
+  @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-5;
+}
